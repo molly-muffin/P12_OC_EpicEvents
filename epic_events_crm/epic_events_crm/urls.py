@@ -4,14 +4,14 @@ from rest_framework import routers
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from authentication.views import UserViewSet
-#from clients.views import ClientViewSet
+from clients.views import ClientViewSet
 #from contracts.views import ContractViewSet
 #from events.views import EventViewSet
 
 
 router = routers.DefaultRouter()
 router.register('users', UserViewSet)
-#router.register('clients', ClientViewSet)
+router.register('clients', ClientViewSet)
 #router.register('contracts', ContractViewSet)
 #router.register('events', EventViewSet)
 

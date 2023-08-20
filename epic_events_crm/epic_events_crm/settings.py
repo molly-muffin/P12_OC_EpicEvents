@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'epic_events_crm',
     'authentication',
-#    'clients',
+    'clients',
 #    'contracts',
 #    'events',
 ]
