@@ -1,10 +1,9 @@
 from django.db import models
-from django.conf import settings
 from django.db.models.deletion import RESTRICT
+from django.conf import settings
 
 
 class Client(models.Model):
-
   objects = None
   first_name = models.CharField(max_length=15)
   last_name = models.CharField(max_length=15)

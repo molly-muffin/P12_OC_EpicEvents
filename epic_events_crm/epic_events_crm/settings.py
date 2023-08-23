@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'epic_events_crm',
     'authentication',
     'clients',
-#    'contracts',
+    'contracts',
 #    'events',
 ]
 
