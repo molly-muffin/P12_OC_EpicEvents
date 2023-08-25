@@ -105,7 +105,7 @@ Voici les différentes spécifications techniques de l'API :
 
 
 - Utilisation
-    - Vous retrouverez tous les points de terminaisons de l'API et leur utilisation dans la documentation Postman : https://documenter.getpostman.com/view/23897812/2s9Y5WyPQK
+    - Vous retrouverez tous les points de terminaisons de l'API et leur utilisation dans la [documentation Postman](https://documenter.getpostman.com/view/23897812/2s9Y5WyPQK)
 
 
     - Si vous souhaitez avoir accès à l'intégralités des données de l'API vous avez le pnael admin disponible sur http://127.0.0.1:8000/admin/
