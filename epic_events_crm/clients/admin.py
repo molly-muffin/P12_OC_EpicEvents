@@ -9,5 +9,4 @@ class ClientAdmin(admin.ModelAdmin):
                     "last_name", 
                     "company_name", 
                     "email", 
-                    "phone", 
-                   )
+                    "phone")

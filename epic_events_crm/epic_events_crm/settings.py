@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'authentication',
     'clients',
     'contracts',
-#    'events',
+    'events',
 ]
 
 MIDDLEWARE = [
@@ -99,7 +99,7 @@ WSGI_APPLICATION = 'epic_events_crm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EpicEvents',
+        'NAME': 'epic_events_crm',
         'USER': 'postgres',
         'PASSWORD': 'p79dcy5q6xCKBE',
         'HOST': 'localhost',

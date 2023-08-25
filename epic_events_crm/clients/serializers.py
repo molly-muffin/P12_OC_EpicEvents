@@ -3,7 +3,6 @@ from .models import Client
 
 
 class ClientSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Client
         fields = ["id",
@@ -15,5 +14,4 @@ class ClientSerializer(serializers.ModelSerializer):
                   "commercial_contact",
                   "notes",
                   "creation_date",
-                  "update_date",
-                 ]
+                  "update_date"]

@@ -1,5 +1,4 @@
 from django.contrib import admin
-from django.contrib import admin
 from contracts.models import Contract
 
 
@@ -10,5 +9,4 @@ class ContractAdmin(admin.ModelAdmin):
                     "commercial_contact", 
                     "status", 
                     "amount", 
-                    "payment_due", 
-                   )
+                    "payment_due")

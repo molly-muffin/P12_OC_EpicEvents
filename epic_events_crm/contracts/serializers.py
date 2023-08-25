@@ -3,7 +3,6 @@ from contracts.models import Contract
 
 
 class ContractSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Contract
         fields = ["id", 
@@ -13,5 +12,4 @@ class ContractSerializer(serializers.ModelSerializer):
                   "amount", 
                   "payment_due", 
                   "creation_date", 
-                  "update_date", 
-                 ]
+                  "update_date"]
