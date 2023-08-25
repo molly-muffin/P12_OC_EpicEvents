@@ -12,9 +12,10 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [IsAuthenticated, UserAccess]
+
     def destroy(self, request, *args, **kwargs):
         instance = self.get_object()
-        self.check_object_permissions(request, instance) 
+        self.check_object_permissions(request, instance)
         user = get_object_or_404(User, id=self.kwargs["pk"])
         user.delete()
         return Response({"detail": "Utilisateur supprimé."}, status=status.HTTP_202_ACCEPTED)

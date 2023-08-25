@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models.deletion import CASCADE, RESTRICT
+from django.db.models.deletion import RESTRICT
 from django.conf import settings
 from clients.models import Client
 

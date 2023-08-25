@@ -5,13 +5,13 @@ from events.models import Event
 class EventSerializers(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ["id", 
+        fields = ["id",
                   "event_status",
-                  "name", 
-                  "contract", 
+                  "name",
+                  "contract",
                   "support_contact",
-                  "event_date", 
-                  "participants", 
-                  "notes", 
+                  "event_date",
+                  "participants",
+                  "notes",
                   "creation_date",
                   "update_date"]

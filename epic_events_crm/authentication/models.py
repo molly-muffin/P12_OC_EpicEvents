@@ -5,8 +5,7 @@ from django.db import models
 class User(AbstractUser):
     ROLES = [('MANAGEMENT', 'Gestion'),
              ('SUPPORT', 'Support'),
-             ('COMMERCIAL', 'Vente')
-            ]
+             ('COMMERCIAL', 'Vente')]
     role = models.CharField(max_length=20, choices=ROLES, blank=True)
 
     def save(self, *args, **kwargs):
