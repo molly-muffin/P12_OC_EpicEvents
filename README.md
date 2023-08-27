@@ -1,4 +1,4 @@
-![Alt text](https://github.com/molly-muffin/P12_OC_EpicEvents/blob/main/image/img.PNG)
+![Alt text](https://github.com/molly-muffin/P12_OC_EpicEvents/blob/main/image/img.png)
 
 # Développer une architecture back-end sécurisée avec Python et SQL
 
